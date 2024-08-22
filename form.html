@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Africa Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class=" container">
+        <div class="form-container">
+            <h1>Create  an Account</h1>
+            <footer>
+                <a href="./index.html"> Go to About Me</a>
+            </footer>
+            <br/>
+            <form action="" method="post">
+                <div class="input-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="Gender">Gender</label>
+                    <!-- <input type="text" id="Gender" name="Gender" required> -->
+                    <select name="Gender" id="Gender" >Select your Gender
+                        <option value="" disabled selected> Choose your Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+        
+                <div class="input-group">
+                    <label for="Date of birth">Date of birth</label>
+                    <input type="date" id="Date of birth" name="Date of birth" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="Phone Number">Phone Number</label>
+                    <input type="Number" id="Phone Number" name="Phone Number" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="country">Country</label>
+                    <select id="country" name="country" required>
+                        <option value="" disabled selected>Select your country</option>
+                        <option value="Nigeria">Nigeria</option>
+                        <option value="Ghana">Ghana</option>
+                        <option value="Kenya">Kenya</option>
+                    </select>
+                </div>
+        
+                <div class="input-group">
+                    <label for="State/City of Residence">State/City of Residence</label>
+                    <input type="text" id="State/city of Residence" name="State/City of Residence" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+        
+                <div class="input-group">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword" required>
+                </div>
+        
+                
+                <div class="checkbox-group">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the <a href="#">Terms and Conditions</a></label>
+                </div>
+        
+                <button type="submit" class="submit-btn">Submit</button>
+        
+            </form>
+        </div>
+    </div>  
+</body>
+</html>
